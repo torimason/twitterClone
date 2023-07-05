@@ -1,0 +1,21 @@
+.under-dev{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-left: var(--accent-background) 1.5px solid;
+    border-right: var(--accent-background) 1.5px solid;
+    
+}
+
+.fa-laptop-code{
+    padding: 100px 0 0 0;
+    font-size: 200px;
+    text-shadow: 1px 1px #2f405c;
+    color: var(--accent-background);
+}
+
+.ud-header{
+    color: #212d40cb;
+}

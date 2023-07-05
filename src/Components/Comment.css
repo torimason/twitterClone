@@ -1,0 +1,33 @@
+.comment-content{
+    display:flex;
+    flex-direction: row;
+    padding: 12px 0;
+    border-top: 1.5px solid var(--accent-background);
+    margin: 9px 0 0 0;
+}
+
+.commenter-img{
+    margin: 0 12px 0 0;
+}
+
+.comment-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.commenter-info{
+    display: flex;
+    flex-direction: row;
+}
+
+.commenter-name{
+    font-weight: 700;
+    padding: 0 5px 0 0;
+    color: var(--primary-light);
+}
+
+.commenter-username{
+    color: #8b8989;
+    font-weight: 200;
+    padding: 0 5px 0 0;
+}

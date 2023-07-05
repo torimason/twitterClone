@@ -1,0 +1,137 @@
+.page-container {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  border-left: var(--accent-background) 1.5px solid;
+  border-right: var(--accent-background) 1.5px solid;
+  
+}
+
+.home::-webkit-scrollbar {
+  display: none;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.user-input {
+  display: flex;
+  flex-direction: row;
+  min-height: 124px;
+  padding: 4px 16px 0 16px;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-options {
+  display: flex;
+  flex-direction: row;
+  height: 52px;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  width: 190px;
+  margin: 12px 0 0 0;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.icon-container div {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.image-container {
+  padding: 4px 0 0 0;
+  margin: 0 12px 0 0;
+}
+.user-image {
+  background-size: 50px 50px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.input-container {
+  width: 100%;
+  min-height: 56px;
+}
+
+.input-text {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px 0;
+  font-size: 20px;
+}
+
+[contenteditable] {
+  outline: 0px solid transparent;
+}
+
+.input-icon {
+  font-size: 20px;
+  color: var(--primary-accent);
+}
+
+.input-icon:hover {
+  color: #7166c0;
+}
+
+.hoot-btn {
+  background-color: var(--primary-accent);
+  color: var(--primary-light);
+  border: none;
+  padding: 8px 15px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.divider {
+  width: 600px;
+  height: 9px;
+  background-color: #151d29;
+  border-top: 1.5px solid var(--accent-background);
+  border-bottom: 1.5px solid var(--accent-background);
+}
+
+@media only screen and (max-width: 670px) {
+  .page-container {
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    border-left: var(--accent-background) 1.5px solid;
+    border-right: var(--accent-background) 1.5px solid;
+  }
+
+  .divider {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .page-container {
+    width: 100%;
+  }
+}

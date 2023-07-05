@@ -1,0 +1,8 @@
+.main-content{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    border-left: var(--accent-background) 1.5px solid;
+    border-right: var(--accent-background) 1.5px solid;
+}

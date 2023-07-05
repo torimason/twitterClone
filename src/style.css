@@ -1,0 +1,39 @@
+:root{
+    --primary-background: #11151c;
+    --accent-background: #212d40;
+    --primary-light: #fcf7f8;
+    --primary-hover: #f8e8b4;
+    --primary-accent: #7c70d7;
+    --active-element: #8d86c9;
+    --primary-font : 'Poppins', sans-serif;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100vh;
+    background-color: var(--primary-background);
+}
+
+#root{
+    /* background-color: var(--primary-background); */
+    min-height: 100vh;
+    color: var(--primary-light);
+    font-family: var(--primary-font);
+    width: 100vw;
+}
+
+.app{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    height: 100vh;
+}
+
+@media only screen and (max-width: 500px){
+    .app{
+        padding: 0 0 55px 0;
+    }
+}

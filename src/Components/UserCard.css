@@ -1,0 +1,35 @@
+
+.user-card{
+    display: flex;
+    flex-direction: row;
+    padding: 16px 0;
+    border-top: 1.5px solid var(--accent-background);
+    font-size: 15px;
+}
+
+.card-img{
+    margin: 0 12px 0 0;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card-name{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-user-name{
+    font-weight: 700;
+    padding: 0 5px 0 0;
+    color: var(--primary-light);
+}
+
+.card-username{
+    color: #8b8989;
+       font-weight: 200;
+       padding: 0 5px 0 0;
+}

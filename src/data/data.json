@@ -1,0 +1,190 @@
+{
+    "userActive": {
+        "userId": "0001",
+        "name": "Blair Hawkins",
+        "username": "BHawk-95",
+        "profileImg": "url(/images/user-img1.jpg)",
+        "birthdate": "04-13-1995",
+        "location": "Mckinney, Texas",
+        "posts": [
+            {
+                "postId": "BH0001",
+                "content": "Cannot believe it is already this hot!",
+                "timeStamp": "Jun 1",
+                "likes": 6,
+                "rehoots": 4,
+                "comments": [
+                    {
+                        "commentId": "01",
+                        "commentUsername": "mamaHawkins512",
+                        "commentAvatar": "url(/images/user-img10.jpg)",
+                        "commentName": "Clair Hawkins",
+                        "commentTimeStamp": "Jun 2",
+                        "commentContent": "I have told you to wear sunscreen child! I swear."
+                    }
+                ]
+            },
+            {
+                "postId": "BH0002",
+                "content": "POOL DAY!",
+                "timeStamp": "Jun 13",
+                "likes": 12,
+                "rehoots": 0,
+                "comments": []
+            },
+            {
+                "postId": "BH0003",
+                "content": "Got burned so bad! Time to chill out and watch some Netflix... There is not enough aloe in the world to make this sunburn stop hurting! :(",
+                "timeStamp": "Jun 14",
+                "likes": 2,
+                "rehoots": 0,
+                "comments": []
+            }
+        ]
+    },
+
+    "otherUsers": [
+        {
+            "userId": "0002",
+            "name": "Jenny Larson",
+            "username": "jenn14",
+            "profileImg": "url(/images/user-img2.jpg)",
+            "birthdate": "01-06-1992",
+            "location": "Norfolk, Virginia",
+            "posts": [
+                {
+                    "postId": "JL0001",
+                    "content": "Can't BELIEVE it has been a week since the wedding already!!",
+                    "timeStamp": "2h",
+                    "likes": 28,
+                    "rehoots": 0,
+                    "comments": [
+                        {
+                            "commentId": "02",
+                            "commentUsername": "mLars-moto",
+                            "commentAvatar": "url(/images/user-img7.jpg)",
+                            "commentName": "Mike Larson",
+                            "commentTimeStamp": "2h",
+                            "commentContent": "A week already?! Guess time flies when you're spending it with your soulmate."
+                        },
+                        {
+                            "commentId": "01",
+                            "commentUsername": "mary-kendrick5225",
+                            "commentAvatar": "url(/images/user-img8.jpg)",
+                            "commentName": "Mary Kendrick",
+                            "commentTimeStamp": "1h",
+                            "commentContent": "You were absolutley stunning! Me and your dad could not be prouder. <3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "userId": "0003",
+            "name": "Maya Jackson",
+            "username": "travelGirl55",
+            "profileImg": "url(/images/user-img3.jpg)",
+            "birthdate": "08-03-1998",
+            "location": "Madison, Wisconsin",
+            "posts": [
+                {
+                    "postId": "MJ0001",
+                    "content": "I just want to quit my job and travel the world, is that too much to ask? Don't want to sound cliche, I just miss the city so much.",
+                    "timeStamp": "Yesterday",
+                    "likes": 5,
+                    "rehoots": 3,
+                    "comments": []
+                }
+            ]
+        },
+        {
+            "userId": "0004",
+            "name": "Tommy Cavanaugh",
+            "username": "T_-Cav",
+            "profileImg": "url(/images/user-img6.jpg)",
+            "birthdate": "11-29-1997",
+            "location": "Newark, New Jersey",
+            "posts": [
+                {
+                    "postId": "TC0001",
+                    "content": "Who's down to go out this weekend?!",
+                    "timeStamp": "4h",
+                    "likes": 6,
+                    "rehoots": 0,
+                    "comments": [
+                        {
+                            "commentId": "01",
+                            "commentUsername": "dogDad-Nick",
+                            "commentAvatar": "url(/images/user-img9.jpg)",
+                            "commentName": "Nick Harper",
+                            "commentTimeStamp": "2h",
+                            "commentContent": "YES! I have been dying to get out. I'll hit you up."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "userId": "0005",
+            "name": "Kara Lynn Smith",
+            "username": "beachLover92",
+            "profileImg": "url(/images/user.img4.jpg)",
+            "birthdate": "03-17-1977",
+            "location": "San Antonio, Texas",
+            "posts": [
+                {
+                    "postId": "KLS0001",
+                    "content": "Did anyone else LOVE the new season of Outerbanks? No? It was just me?!",
+                    "timeStamp": "Aug 1",
+                    "likes": 2,
+                    "rehoots": 0,
+                    "comments": []
+                }
+            ]
+        },
+        {
+            "userId": "0006",
+            "name": "Cameron Harris",
+            "username": "camHarris_96",
+            "profileImg": "url(/images/user-img5.jpg)",
+            "birthdate": "06-30-1996",
+            "location": "Aurora, Colorado",
+            "posts": [
+                {
+                    "postId": "CH0001",
+                    "content": "Just dropped my newest photos from my shoot on IG @camHarris_96. Be sure to check them out and drop a like!",
+                    "timeStamp": "Just Now",
+                    "likes": 14,
+                    "rehoots": 2,
+                    "comments": []
+                }
+            ]
+        }
+    ],
+    "recommendedUsers" : [
+        {
+            "userId": "R007",
+            "name": "Mary Kendrick",
+            "username": "mary-kendrick5225",
+            "profileImg": "url(/images/user-img8.jpg)",
+            "birthdate": "08-27-1968",
+            "location": "Norfolk, Virginia"
+        },
+        {
+            "userId": "R008",
+            "name": "Mike Larson",
+            "username": "mLars-moto",
+            "profileImg": "url(/images/user-img7.jpg)",
+            "birthdate": "06-10-1990",
+            "location": "Norfolk, Virginia"
+        },
+        {
+            "userId": "R009",
+            "name": "Nick Harper",
+            "username": "dogDad-Nick",
+            "profileImg": "url(/images/user-img9.jpg)",
+            "birthdate": "12-15-1996",
+            "location": "Newark, New Jersey"
+        }
+    ]
+}
